@@ -45,7 +45,7 @@ int cadastro_prod(struct Fabricante fabricantes[], struct Produto produtos[], in
   void selecionar_fab(struct Fabricante fabricantes[], struct Produto produtos[], int quant_fab, int quant_prod, int i);
     void menu_fab(struct Fabricante fabricantes[], int quant_fab, int selecao);
 
-//RELATORIO   *inalterado
+//RELATORIO
 void imprime_produto(struct Produto produtos[], int i,struct Fabricante fabricantes[]);
 
 void menu();
@@ -72,7 +72,7 @@ int main() {
   quant_prod = cadastro_prod(fabricantes, produtos, quant_fab); //de produtos
 
 
-  //RELATORIO   *inalterado
+  //RELATORIO
     int escolhamenu;
     getchar();
     printf("\e[1;1H\e[2J");//limpa a tela
